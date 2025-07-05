@@ -53,6 +53,7 @@
     "release": "bumpp && npm publish",
     "release:beta": "bumpp --preid beta --no-push && npm publish --tag beta",
     "check-vuepress-version": "ncu -f \"*vuepress*\" --interactive --target @next -p pnpm"
+    "start": "node gateway.js"
   },
   "oclif": {
     "bin": "surgio",
